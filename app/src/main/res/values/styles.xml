@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="PrimeNumber.OutlinedEditText" parent="">
+        <item name="android:padding">15dp</item>
+        <item name="android:background">@drawable/outlined_edit_text</item>
+    </style>
+
+    <style name="PrimeNumber.Button" parent="">
+        <item name="android:paddingHorizontal" tools:targetApi="o">70dp</item>
+        <item name="android:paddingVertical" tools:targetApi="o">5dp</item>
+        <item name="android:background">@drawable/bg_btn</item>
+    </style>
+</resources>

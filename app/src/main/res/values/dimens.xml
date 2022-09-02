@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textM">25sp</dimen>
+
+    <dimen name="paddingS">7dp</dimen>
+    <dimen name="paddingM">15dp</dimen>
+    <dimen name="paddingL">35dp</dimen>
+    <dimen name="paddingXL">50dp</dimen>
+    <dimen name="paddingXXL">75dp</dimen>
+
+    <dimen name="marginS">15dp</dimen>
+    <dimen name="marginM">20dp</dimen>
+    <dimen name="marginL">35dp</dimen>
+    <dimen name="marginXL">75dp</dimen>
+    <dimen name="marginXXL">80dp</dimen>
+</resources>

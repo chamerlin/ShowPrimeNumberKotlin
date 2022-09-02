@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg"
+        tools:context=".home.HomeFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginHorizontal="@dimen/marginS"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/paddingXL">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="@dimen/paddingS"
+                android:text="@string/start"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textM"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_start"
+                style="@style/PrimeNumber.OutlinedEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint"
+                android:inputType="number" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/marginL"
+                android:paddingBottom="@dimen/paddingS"
+                android:text="@string/end"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textM"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/et_end"
+                style="@style/PrimeNumber.OutlinedEditText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/generate_btn"
+                style="@style/PrimeNumber.Button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/marginXXL"
+                android:text="@string/generate" />
+
+        </LinearLayout>
+    </ScrollView>
+</layout>

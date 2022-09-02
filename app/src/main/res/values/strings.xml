@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PrimeNumber</string>
+    <string name="start">Start</string>
+    <string name="hint">Enter number</string>
+    <string name="end">End</string>
+    <string name="generate">Generate</string>
+    <string name="back">Back</string>
+    <string name="title">Prime Numbers:</string>
+    <string name="no_prime">No Prime Number Found</string>
+</resources>

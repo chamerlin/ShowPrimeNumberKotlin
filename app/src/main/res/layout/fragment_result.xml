@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="@dimen/marginM"
+        android:background="@color/bg"
+        tools:context=".home.ResultFragment">
+
+        <ProgressBar
+            android:id="@+id/loading_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:indeterminateTint="@color/progress_bar" />
+
+        <TextView
+            android:id="@+id/no_prime_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/no_prime"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textM"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/prime_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/marginL"
+            android:text="@string/title"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textM"
+            android:textStyle="bold" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/prime_title"
+            android:layout_marginTop="@dimen/marginS"
+            android:layout_marginBottom="@dimen/marginXL">
+
+            <TextView
+                android:id="@+id/result_tv"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:lineSpacingExtra="@dimen/paddingL"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textM" />
+        </ScrollView>
+
+        <Button
+            android:id="@+id/back_btn"
+            style="@style/PrimeNumber.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/paddingS"
+            android:text="@string/back" />
+
+    </RelativeLayout>
+</layout>
